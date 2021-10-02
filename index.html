@@ -2,66 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meine Seite</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
 
-
-    <style type="text/css">
-        #img {
-            border-radius: 100%;
-        }
-
-        /*body{
-        position: absolute;
-        width: 300px;
-        height: 50px;
-        top: 20px;
-        left: 50%;
-        margin-left: -50px; /* margin is -0.5 * dimension */
-        margin-top: -25px;
-        }
-
-        */
-    </style>
+    <style type="text/css"></style>
 </head>
+<header>
 
-<body class="m-4 bg-blue-200">
+</header>
 
-    <nav>
-        <ul>
-            <li><a href=""></a>Kompetenzen</li>
-            <li><a href=""></a>Werdegang</li>
 
-            <li><a href="https://github.com/Samet91"></a>Github</li>
-            <li><a href="">Kontakt</a></li>
-        </ul>
-    </nav>
+<body class="bg-blue-200 container mx-auto">
 
-    <h1 class="shadow bg-red-200">Samet Uslu{30}</h1>
-    <p>-----------------------------------------</p>
-    <h2>Frontend-Developer, Konstruktionstechniker</h2>
+
+    <h1 class="bg-red-200 rounded-3xl p-2 mt-3 ml-2 mr-2 text-center">Samet Uslu {30}</h1>
+    <p class="text-center">---------------------------------------------</p>
+    <h2 class="text-center">Frontend-Developer, Konstruktionstechniker</h2>
 
     <div>
         <dl>
-            <dt class="text"><img src="meinFoto.jpg" id="img" alt="Bildbeschreibung" title="Bild" width="200"></dt>
+            <dt class="object-center">
+                <img class="rounded-3xl p-1 m-20" src="meinFoto.jpg" alt="Bildbeschreibung" title="Bild"
+                    width="200" />
+            </dt>
             <dd></dd>
         </dl>
     </div>
 
-    <div>
 
-        <p class="text-center">Ich bin ein motivierter Junior Frontend-Developer
-            und <br> freue mich auf weitere spannende Projekte. </p><br><br><br>
-
-        <h3>Kompetenzen</h3><br>
-        <p class="text-center">HTML CSS Javascript React Git GitHub Backend:REST-Schnittschnellen Node.js MongoDB
-            UX-Grundkenntnisse Design Grundlagen Tailwind
+    <div class="flex flex-initial bg-green-200 rounded-3xl text-center ml-2 mr-2">
+        <p class="p-1 m-2 text-2xl">
+            Ich bin ein motivierter Junior Frontend-Developer und
+            freue mich auf weitere spannende Projekte. 
         </p>
-
     </div>
+
+
+    <h3 class="bg-red-200 p-1 mb-10 mt-20 rounded-3xl text-center font-bold">Kompetenzen</h3>
+
+    <div class="flex">
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-2">
+            <p>HTML</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>CSS</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>Javascript</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>React</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>Git</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>GitHub</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>REST</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>Node.js</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>MongoDB</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>UX
+            </p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>Design</p>
+        </div>
+        <div class="flex-initial bg-white rounded-2xl p-2 ml-4">
+            <p>Tailwind</p>
+        </div>
+    </div>
+
+
 
 </body>
 
